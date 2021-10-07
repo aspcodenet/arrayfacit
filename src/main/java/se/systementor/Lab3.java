@@ -6,7 +6,8 @@ import java.util.Arrays;
 
 public class Lab3 {
     public void run(){
-        ArrayList<Integer> talArrayList1 = new ArrayList<>(Arrays.asList( 12,55,32,9,34));        
+        ArrayList<Integer> talArrayList1 = 
+            new ArrayList<>(Arrays.asList( 12,55,32,9,34));        
         
         int sum = 0;
         for( int tal : talArrayList1)
