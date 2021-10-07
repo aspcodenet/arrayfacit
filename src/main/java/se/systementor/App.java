@@ -12,6 +12,9 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
+        var lab2 = new Lab2();
+        lab2.run();
+
         var lab1 = new Lab1();
         lab1.run();
     }
